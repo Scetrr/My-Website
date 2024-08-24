@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color:#98daf9;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: "Abel", sans-serif;
+    font-size: 4.5rem;
+}
+
+h2 {
+    color:#51a5df;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px; 
+    margin-top: 33.2px;
+}
+
+.storm {
+    font-size: 2rem;
+}
+
+.top-container {
+    padding-top: 25px;
+    background-color:#1c3f7e;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.mid-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pfp {
+    border-radius: 50%;
+}
+
+.intro {
+    margin:auto;
+    width: 30%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+
+.gamer {
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.gaming {
+    margin-top: 0px;
+}
+
+.rizzless {
+    margin-left: 20px;
+}
+.negative {
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+    display:block;
+    font-family: "Merriweather", serif;
+    line-height: 2;
+    font-size: 1.2em;
+}
+
+h3 {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1em;
+    color: #1d4199;
+    font-weight: bold;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-color: #011752;
+    color: white;
+}
+
+.bottom-container {
+    background-color: #000431;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+a {
+    color: #1d4199;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+hr {
+    border: dotted #b3bcef 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+@media (max-width:1220px) {
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+        height: 100%;
+    }
+    .gaming {
+        text-align: center;
+    }
+    .negative {
+        text-align: center;
+    }
+}
